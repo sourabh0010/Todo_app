@@ -1,0 +1,12 @@
+
+array loadesh
+chunk,concat,pull,pullall,drop,dropright,findindex,findlastindex,indexof,intersection,union,join,last,remove,revers,slice,uniq
+
+object loadesh
+at,defaultes,findkey,findlast,key,get,has,invert,pick,omit,result,set,update
+
+number
+max,min,multiply,round
+
+other
+toSting,toarray,tonumber,clone,clondeep,isNan,isfunction

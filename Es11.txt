@@ -1,0 +1,22 @@
+1) Optional Chaining where we put ?
+
+2) Nullish Coalescing let theNumber = 0
+let number = theNumber || 5 (theNumber ?? 5)
+console.log(number) // output is: 5
+
+3) . Promise.allSettled (run all promices if  any promice is rejected)
+
+4)  Dynamic Import (import('/components/Alert.js')
+    .then(Alert => {
+        Alert.show()
+    }))
+
+    5)  MatchAll (const regex = /\b(iPhone)+\b/g;
+const smartphones = "S series, iPhone, note series, iPhone, A series, iPhone, moto phones";
+for (const match of smartphones.matchAll(regex)) {
+  console.log(match);
+})
+output with match object with there index
+
+6) globalThis
+7) BigInt(increess the limit of intiger)

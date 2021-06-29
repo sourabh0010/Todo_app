@@ -1,0 +1,20 @@
+.inputModel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  min-width: 500px;
+}
+
+.inputModel p {
+  font-size: 10px;
+  color: red;
+}
+/*# sourceMappingURL=model.css.map */

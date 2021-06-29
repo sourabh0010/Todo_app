@@ -1,0 +1,45 @@
+// @mixin displayFlex($direction) {
+//     display: flex;
+//     text-align: center;
+//     flex-direction: $direction;
+// }
+// $hoverColor: rgb(134, 134, 238);
+
+$errorColor:red;
+.App{
+    text-align: center;
+    .input_field{
+        margin: 10px;
+        margin-top: 10%;
+        height:25px ;
+        border-radius: 10px;
+    }
+    button {
+        font-size: 25px;
+        width: 70px;
+        border-radius: 10px;
+        border:none;
+    }
+    p{
+        margin-top: -10px;
+        color: $errorColor;
+        font-size: 11px;
+        margin-right: 15%;
+    }
+}
+.list{
+    button {
+        font-size: 15px;
+        width: 70px;
+        border-radius: 6px;
+        border:none;
+    }
+    ul{
+        list-style-type: none;
+        li{
+            padding: 15px;
+            margin-right: 10%;
+        }
+    }
+}
+

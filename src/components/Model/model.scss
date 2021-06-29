@@ -1,0 +1,11 @@
+.inputModel{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 500px;
+    p{
+        font-size: 10px;
+        color: red;
+    }
+}

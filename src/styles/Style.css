@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App .input_field {
+  margin: 10px;
+  margin-top: 10%;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.App button {
+  font-size: 25px;
+  width: 70px;
+  border-radius: 10px;
+  border: none;
+}
+
+.App p {
+  margin-top: -10px;
+  color: red;
+  font-size: 11px;
+  margin-right: 15%;
+}
+
+.list button {
+  font-size: 15px;
+  width: 70px;
+  border-radius: 6px;
+  border: none;
+}
+
+.list ul {
+  list-style-type: none;
+}
+
+.list ul li {
+  padding: 15px;
+  margin-right: 10%;
+}
+/*# sourceMappingURL=Style.css.map */
